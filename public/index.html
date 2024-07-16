@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Appointment Reminder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">Health Reminder</h1>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#appointments">Appointments</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#customer">Customers</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="container">
+            <h2>Stay Healthy, Stay Informed</h2>
+            <p>Get timely reminders for your health appointments.</p>
+            <img src="health1.jpg" alt="Health Image" class="health-image">
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section id="categories" class="categories">
+        <div class="container">
+            <h2>Health Categories</h2>
+            <div class="category-list">
+                <div class="category">
+                    <img src="doctor1.jpg" alt="Doctor 1">
+                    <h3>General Practitioner</h3>
+                </div>
+                <div class="category">
+                    <img src="doctor2.jpg" alt="Doctor 2">
+                    <h3>Dentist</h3>
+                </div>
+                <!-- Add more categories as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Appointments Section -->
+    <section id="appointments" class="appointments">
+        <div class="container">
+            <h2>Book Your Appointment</h2>
+            <p>Choose a specialist and schedule your next visit.</p>
+            <form id="appointmentForm">
+                <label for="doctor">Choose a Doctor:</label>
+                <select id="doctor" name="doctor">
+                    <option value="General Practitioner">General Practitioner</option>
+                    <option value="Dentist">Dentist</option>
+                    <!-- Add more options for other specialists -->
+                </select>
+                <label for="date">Select Date:</label>
+                <input type="date" id="date" name="date">
+                <button type="submit">Schedule Appointment</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are dedicated to helping you manage your health appointments effectively.</p>
+        </div>
+    </section>
+
+    <!-- Customer Section -->
+    <section id="customer" class="customer">
+        <div class="container">
+            <h2>Customer Reviews</h2>
+            <div class="reviews">
+                <div class="review">
+                    <h3>Jane Smith</h3>
+                    <p>"Great service! Reminders are always on time."</p>
+                </div>
+                <!-- Add more reviews as needed -->
+            </div>
+            <h2>Add to Calendar</h2>
+            <form id="calendarForm">
+                <label for="event">Event:</label>
+                <input type="text" id="event" name="event" placeholder="Appointment with...">
+                <label for="event-date">Date:</label>
+                <input type="date" id="event-date" name="event-date">
+                <button type="submit">Add to Calendar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Dorcas Tatenda Mutyavaviri</p>
+        </div>
+    </footer>
+
+    <!-- ScrollBar -->
+    <div class="scrollbar"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
